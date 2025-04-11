@@ -34,4 +34,4 @@ embeddings = CohereEmbeddings(model="embed-english-v3.0", cohere_api_key=os.gete
 # Load embeddings into Pinecone
 vectorstore = LangchainPinecone.from_documents(docs, embeddings, index_name=index_name)
 
-print("✅ Cohere embeddings loaded successfully into Pinecone!")
+print("Cohere embeddings loaded successfully into Pinecone!")
