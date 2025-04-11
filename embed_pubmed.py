@@ -38,5 +38,5 @@ embeddings = CohereEmbeddings(model="embed-english-v3.0", cohere_api_key=os.gete
 # Embed into Pinecone
 vectorstore = LangchainPinecone.from_documents(docs, embeddings, index_name=index_name)
 
-print("✅ PubMed abstracts embedded successfully!")
+print("PubMed abstracts embedded successfully!")
 
