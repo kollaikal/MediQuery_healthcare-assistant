@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ```
 
 ### Step 3: Set Up Environment Variables
-- Rename `.env.example` to `.env`
+- nano `.env`
 - Fill in your API keys:
 ```env
 COHERE_API_KEY=your-cohere-api-key
